@@ -1,7 +1,7 @@
 GoogleTran
 ==========
 
-Google Translate (Web) API for Python
+Google Translate API for Python
 
 Getting result by posting data to [Google Translate](http://translate.google.com)
 
@@ -11,21 +11,16 @@ You can translate long paragraphs directly, module will automatic split paragrap
 
 ##Installation
 
-GoogleTran requires [BeautifulSoup4](translate.google.com)
+GoogleTran requires [BeautifulSoup4](translate.google.com):
 
-You can use
 <pre>
 pip install beautifulsoup4
 </pre>
 
-to install beautifulsoup
-
-Then download GoogleTran and use
+Then use this to install GoogleTran:
 <pre>
-setup.py install
+pip install googletran
 </pre>
-
-to install GoogleTran
 
 ##Usage
 <pre>
