@@ -2,7 +2,7 @@
 
 from bs4 import BeautifulSoup
 import urllib.request
-import urllib
+import urllib.request, urllib.parse, urllib.error
 import threading
 
 resultLock = threading.Lock()
@@ -108,4 +108,4 @@ def partTran(sl,tl,text,number=0,longResult=0):
     
 
 if __name__ == '__main__':
-    print(googletran('zh-CN','en','你好'))
+    print((googletran('zh-CN','en','你好')))
